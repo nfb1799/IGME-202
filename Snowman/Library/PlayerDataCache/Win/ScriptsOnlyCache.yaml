@@ -2,6 +2,8 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp-firstpass.dll:
     - UnityStandardAssets.Characters.FirstPerson.FirstPersonController
+    Assembly-CSharp.dll:
+    - SnowmanSpawner
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -43,6 +45,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 9812}
+    - Class: 114
+      Script: {instanceID: 19708}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1028,7 +1032,13 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: AutoMobileShaderSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: f0576838bcdac686292d06c9585e963e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SnowmanSpawner
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Nik/Desktop/IGME-202/Snowman/StandaloneBuild/Snowman.exe
+  playerPath: D:/Profiles/nfb1799/Desktop/IGME-202/Snowman/StandaloneBuild1.1/Snowman.exe
