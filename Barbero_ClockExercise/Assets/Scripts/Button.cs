@@ -6,11 +6,12 @@ public class Button : MonoBehaviour
 {
 
     public GameObject clockHand;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-
+        clockHand = GameObject.Find("ClockHand");
     }
 
     // Update is called once per frame
@@ -21,6 +22,9 @@ public class Button : MonoBehaviour
 
     void OnMouseDown()
     {
-        clockHand.GetComponent<RotateHand>().enabled = !clockHand.GetComponent<RotateHand>().enabled;
+
+        var script = clockHand.GetComponent<RotateHand>();
+        script.enabled = !script.enabled;
+        Debug.Log("click");
     }
 }
