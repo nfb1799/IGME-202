@@ -25,6 +25,5 @@ public class Button : MonoBehaviour
 
         var script = clockHand.GetComponent<RotateHand>();
         script.enabled = !script.enabled;
-        Debug.Log("click");
     }
 }
